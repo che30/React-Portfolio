@@ -1,0 +1,30 @@
+body{
+    /* background: #E5E5E5; */
+}
+@font-face {
+    font-family: "Nunito-bold";
+    src: url("./assets//fonts/Nunito-Bold.ttf");
+    font-weight: 500;
+  }
+  
+@font-face {
+    font-family: "Nunito-light";
+    src: url("./assets/fonts/Nunito-Regular.ttf");
+  }
+  
+@font-face {
+    font-family: "Nunito-medium";
+    src: url("./assets/fonts/Grandstander-VariableFont_wght.ttf");
+  }
+.font-Nunito-bold {
+    font-family: "Nunito-bold", helvetica, arial, sans-serif;
+    font-weight: 600;
+  }
+  .font-Nunito-light {
+    font-family: "Nunito-light", helvetica, arial, sans-serif;
+    font-weight: 500;
+  }
+  .font-Nunito-medium {
+    font-family: "Nunito-medium", helvetica, arial, sans-serif;
+  }
+  

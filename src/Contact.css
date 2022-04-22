@@ -1,0 +1,8 @@
+.form__contain {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form__contain  form input {
+   margin-top: 20px;
+}

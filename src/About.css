@@ -1,0 +1,97 @@
+.abt__section {
+    /* background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,18,23,0.9668242296918768) 17%, rgba(149,227,242,1) 100%),url("./assets/images/background\ shapes-desktop.png"); */
+    /* background-size: cover; */
+    /* background-size: 100%; */
+    background-image: url("./assets/images/background\ shapes-desktop.png");
+    background-color: black;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+}
+.abt__parent_section{
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.full__stack{
+    color: #F9855B;
+    padding: 20px 0 20px 0;
+}
+.bg-orange{
+    background-color: white;
+    width: 50vw;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.bg-orange a,i {
+    /* padding-left: 10px; */
+    color: #f54809;
+    font-size: 30px;
+}
+.bg-orange i{
+    font-weight: 900;
+}
+.bg-orange  p{
+    color: #f74c0f;
+}
+.header__one {
+    padding-top: 20px;
+}
+.header__three{
+    width: 60%;
+    padding: 20px 0 20px 0;
+}
+.bg-orange a {
+    padding-left: 10px;
+}
+.fa-medium{
+    padding-right: 15px;
+}
+@media (max-width: 567px){
+    .abt__section {
+        background-image: none;
+        height: 500px;
+    }
+    .abt__parent_section{
+        flex-direction: column;
+    }
+    .header__three{
+        font-size: 20px;
+        padding: 0 15px 0 15px;
+        width: 100%;
+    }
+    .header__two{
+        font-size: 27px;
+        padding: 0 15px 0 15px;
+    }
+    .header__one{
+        font-size: 35px;
+        padding: 0 15px 0 15px;
+        padding-top: 10px;
+    }
+    .abt__parent_section{
+        align-items: center;
+    }
+    .bg-orange {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5px 0 5px 0;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg-orange  p{
+        font-weight: 900;
+        padding-left: 4px;
+    }
+    .bg-orange a {
+        padding-left: 10px;
+    }
+}
+@media (min-width: 567px) and (max-width: 768px){
+    .bg-orange {
+        width: 91vw;
+    }
+}
