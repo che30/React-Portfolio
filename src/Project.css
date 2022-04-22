@@ -12,6 +12,11 @@
     margin-top: 30px;
     margin-bottom: -20px;
 }
+iframe {
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+}
 .image__one {
   display: block;
   width: 90%;

@@ -144,7 +144,7 @@ const Projects = () =>{
 
       <div className="project_three">
       <div className="projects__container__one">
-            <img className="image__one" src={sm5} alt="collegemanagement system" />
+        <iframe    src="https://replit.com/@chensoh/RubyTicTacToeProject?lite=true"></iframe>
         </div>
         <div className="mt-2">
             <div className="text-center apps">
