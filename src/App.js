@@ -5,6 +5,7 @@ import Footer from './footer';
 import Myskills from './Myskills';
 import Navbar from './Navbar'
 import Projects from './Projects';
+import Resume from './Resume';
 const App =()=> {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ const App =()=> {
       <About />
       <Projects />
       <AboutMe />
+      <Resume />
       <Myskills />
       <Footer />
     </div>
