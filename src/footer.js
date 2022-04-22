@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () =>{
     return(
         <footer>
-           <div className="mx-auto footer">
+           <div className="mx-auto footer py-3">
            <div><span><i class="fa fa-send-o mr-2" id="contact"></i></span> <span className="font">che.blancoo58@gmail.com</span> </div>
             <div className="d-flex footer__social__icons">
                 <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/che30"><i className="fa fa-github "></i></a></div>

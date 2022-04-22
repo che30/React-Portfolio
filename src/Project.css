@@ -64,6 +64,10 @@ iframe {
  }
 
 @media (max-width: 567px){
+    .projects__container__one{
+        padding: 20px 0 20px 0;
+        /* width: 99%; */
+    }
     .projects__container{
         width: 95%;
     }
