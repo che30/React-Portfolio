@@ -2,8 +2,10 @@
     /* background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,18,23,0.9668242296918768) 17%, rgba(149,227,242,1) 100%),url("./assets/images/background\ shapes-desktop.png"); */
     /* background-size: cover; */
     /* background-size: 100%; */
-    background-image: url("./assets/images/andras-vas-Bd7gNnWJBkU-unsplash.jpg");
-    /* background-color: black; */
+    background: rgb(0,53,102);
+    background-image: url("./assets/images/bg.jpg");
+  
+/* background: linear-gradient(0deg, rgba(0,53,102,1) 8%, rgba(0,8,20,0.938813025210084) 72%); */
     height: 450px;
     background-repeat: no-repeat;
     background-position: center;

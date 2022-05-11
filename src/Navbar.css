@@ -29,6 +29,13 @@
     .nav__top__right__width {
         width: 50vw;
     }
+    .parent_div_nav {
+        background: rgb(0,53,102);
+    }
+    footer {
+        background: rgb(0,53,102);
+    }
+    
 }
 @media (max-width: 1024px){
     .nav__top__right__width {
