@@ -14,12 +14,8 @@
     font-weight: 800;
     font-size: 2rem;
 }
-.nav__top__right__width{
-    color: #F9855B;
-    font-weight: 500;
-}
 .nav__top__right__width a {
-    color: #F9855B;
+    color: white;
 }
 @media (max-width: 567px ){
     .parent_div_nav {
@@ -31,6 +27,7 @@
     }
     .parent_div_nav {
         background: rgb(0,53,102);
+        background: linear-gradient(0deg, rgba(0,53,102,1) 8%, rgba(0,8,20,0.938813025210084) 72%);
     }
     footer {
         background: rgb(0,53,102);
